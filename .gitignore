@@ -3,13 +3,12 @@ logs
 *.log
 npm-debug.log*
 
-node_modules/
-
 build/Release
+
+# Dependency directories
+node_modules/
 
 .env
 .env.test
-
-.vscode-test
 
 test/
