@@ -1,0 +1,17 @@
+{
+  "name": "fibonacci-multicore",
+  "version": "1.0.0",
+  "description": "Fibonacci multicore app",
+  "main": "nodemon server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alvaro Tolentino",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
