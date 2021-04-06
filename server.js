@@ -1,5 +1,8 @@
 const express = require('express');
 
+const fabQueue1 = require('./queues/queue1');
+const fabQueue2 = require('./queues/queue2');
+
 const fibonacci = require('./math-logic/fibonacci-series');
 
 const app = express();

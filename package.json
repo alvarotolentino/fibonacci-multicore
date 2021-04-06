@@ -9,6 +9,7 @@
   "author": "Alvaro Tolentino",
   "license": "ISC",
   "dependencies": {
+    "amqplib": "^0.7.1",
     "express": "^4.17.1"
   },
   "devDependencies": {
