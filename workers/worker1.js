@@ -2,7 +2,6 @@ const rq = require('amqplib/callback_api');
 
 rq.connect('amqp://localhost', (err, connection) => {
   if (err) {
-    console.log(err);
     process.exit();
   } else {
     const queueName = 'FabSeries1';
@@ -11,7 +10,7 @@ rq.connect('amqp://localhost', (err, connection) => {
       channel.consume(
         queueName,
         (message) => {
-          console.log('Waiting for messages');
+          console.log(`Waiting for messages`);
           console.log(`${queueName} - ${message.content.toString()}`);
         },
         { noAck: true }
